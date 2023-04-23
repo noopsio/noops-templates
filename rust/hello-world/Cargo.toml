@@ -1,9 +1,7 @@
 cargo-features = ["per-package-target"]
 
-[workspace]
-
 [package]
-name = "hello-world"
+name = "handler"
 version = "0.1.0"
 edition = "2021"
 default-target = "wasm32-wasi"
