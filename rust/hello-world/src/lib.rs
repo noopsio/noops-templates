@@ -8,7 +8,7 @@ impl Handler for TestHandler {
     fn handle(_: Request) -> Response {
         Response {
             status: 200,
-            body: "Hello World!".to_string(),
+            body: "Hello World!\n".to_string(),
         }
     }
 }

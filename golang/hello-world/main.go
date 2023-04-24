@@ -11,7 +11,7 @@ type HostImpl struct {
 }
 
 func (e HostImpl) Handle(req handler.HandlerRequest) handler.HandlerResponse {
-	return handler.HandlerResponse{Status: 200}
+	return handler.HandlerResponse{Status: 200, Body: "Hello World\n"}
 }
 
 //go:generate wit-bindgen tiny-go ./wit --out-dir=handler
