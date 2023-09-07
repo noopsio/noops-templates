@@ -1,10 +1,13 @@
 wit_bindgen::generate!({
     world: "handler",
+    exports: {
+        world: TestHandler
+    }
 });
 
 struct TestHandler;
 
-impl Handler for TestHandler {
+impl Guest for TestHandler {
     fn handle(_: Request) -> Response {
         Response {
             status: 200,
@@ -12,5 +15,3 @@ impl Handler for TestHandler {
         }
     }
 }
-
-export_handler!(TestHandler);
