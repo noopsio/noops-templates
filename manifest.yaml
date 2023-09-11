@@ -1,0 +1,9 @@
+templates:
+  - name: Rust Hello World
+    description: A Hello World function in Rust
+    subpath: rust/hello-world
+    language: Rust
+  - name: Golang Hello World
+    description: A hello world function in Go
+    subpath: golang/hello-world
+    language: Golang
