@@ -3,6 +3,10 @@ templates:
     description: A Hello World function in Rust
     subpath: rust/hello-world
     language: Rust
+  - name: Rust Add Params
+    description: A Function that adds path parameters as numerals
+    subpath: rust/add_return_200
+    language: Rust
   - name: Golang Hello World
     description: A hello world function in Go
     subpath: golang/hello-world
