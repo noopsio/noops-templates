@@ -11,3 +11,7 @@ templates:
     description: A hello world function in Go
     subpath: golang/hello-world
     language: Golang
+  - name: Golang Fibonacci
+    description: A Fibonacci function in Go
+    subpath: golang/fibonacci
+    language: Golang    
