@@ -1,13 +1,13 @@
 wit_bindgen::generate!({
     world: "handler",
     exports: {
-        world: TestHandler
+        world: Handler
     }
 });
 
-struct TestHandler;
+struct Handler;
 
-impl Guest for TestHandler {
+impl Guest for Handler {
     fn handle(req: Request) -> Response {
         let mut response_body = String::default();
         let mut result = 0;

@@ -1,13 +1,13 @@
 wit_bindgen::generate!({
     world: "handler",
     exports: {
-        world: TestHandler
+        world: Handler
     }
 });
 
-struct TestHandler;
+struct Handler;
 
-impl Guest for TestHandler {
+impl Guest for Handler {
     fn handle(_: Request) -> Response {
         Response {
             status: 200,
